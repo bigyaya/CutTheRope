@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: 0bef7b5306728fc46963055468811adf
+  - enabled: 1
+    path: Assets/Cut the rope.unity
+    guid: 54f61f3132b71d84baaf5a86c9d7bdc7
+  - enabled: 1
+    path: Assets/Cut the rope Lv2.unity
+    guid: 29e41b2bd652b594fa27e516005ca82f
+  - enabled: 1
+    path: Assets/Cut the rope Lv3.unity
+    guid: 21dc2d37baefd4b49993105f5cc051cd
   m_configObjects: {}

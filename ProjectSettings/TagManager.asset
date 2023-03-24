@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Link
   - Candy
+  - Froggy
+  - GameOverBG
   layers:
   - Default
   - TransparentFX

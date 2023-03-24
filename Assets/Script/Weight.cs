@@ -7,12 +7,14 @@ public class Weight : MonoBehaviour
     #region Exposed
 
     public float distanceFromChainEnd = 0.6f;
+    [SerializeField] private GameObject vicotryUI;
+    [SerializeField] private GameObject gameOverUI;
 
     #endregion
 
 
 
-    
+
 
     #region Unity Lifecycle
     void Awake()
@@ -39,6 +41,20 @@ void FixedUpdate()
 
 
     #region Methods
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Froggy"))
+        {
+            Destroy(gameObject);
+            vicotryUI.SetActive(true);
+        }
+        else if (collision.gameObject.CompareTag("GameOverBG"))
+        {
+            Destroy(gameObject);
+            gameOverUI.SetActive(true);
+        }
+    }
 
     public void ConnectRopeEnd(Rigidbody2D endRB)
     {

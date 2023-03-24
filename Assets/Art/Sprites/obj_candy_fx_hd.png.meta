@@ -3,7 +3,7 @@ guid: 5ebc223f98780cf4181d6df7a4f6e550
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,16 +33,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -55,11 +56,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -73,9 +77,1149 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 852
+        width: 162
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2709e557accd534f82577b0c6845208
+      internalID: -176749741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 962
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b211b01211db5ef449499a82c83a8a87
+      internalID: -1943760378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 918
+        width: 254
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481fc9874e515244aae02216d3717715
+      internalID: 301291855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 942
+        width: 6
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56d0b545a8b1b840a67aa87adc7f12d
+      internalID: -633480011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 900
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204257b839faced4e8dd77251da83881
+      internalID: -1412364050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 906
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa91cf8e5bcd4d498bc9df114c71ad1
+      internalID: -1110389916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 877
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad850b09027b21e45b8f93a4b785284b
+      internalID: -1883045944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 888
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f207a6a491602b4597951a779b9ff97
+      internalID: -671686605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_8
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 900
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6deeb74de052f84ea844000b4e1173f
+      internalID: 1321570626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 877
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bd0d22be68b76489eb046992615be1
+      internalID: -1351470705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 888
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26d0b42ebcd0cf40b0ad149021518e8
+      internalID: -296109217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 845
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42e383fc66d1f74a95de7adcbb2c836
+      internalID: -1374831520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 882
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e340c5df7f922f945995eff9bf1ea007
+      internalID: -1128929517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 865
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b08d550086dc104c8d934081041d0dc
+      internalID: -556871876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_14
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 876
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b381784f125f4064baae167ec1ab65b1
+      internalID: -1379024875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 871
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521a530ef714b6b47821333f85f85053
+      internalID: 593956821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 871
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cee39831b3a5c24483c6c89ae487d9a
+      internalID: 190473387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 871
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5934c4fccd2e9141bb67a506a353985
+      internalID: 746151784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 865
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7310415b0cff8c344bf270dfdc6bfb9d
+      internalID: -1705543502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 852
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e720043b20d0c7349b9b46de55e20a0e
+      internalID: 1710053404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_20
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 865
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e637c898d86bf46aa51ee97a7602e5
+      internalID: 1742370677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 865
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e113e4e274391d48bec01f116025ffd
+      internalID: -348459547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_22
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 859
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a6ce3cbb56cb7439417b6def760a90
+      internalID: -174266697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 859
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a55e0e0c43d69d439ea9dc3b4363acc
+      internalID: -1026235091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 859
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b692b68e90d7585489de79a53368512e
+      internalID: -1146799219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 859
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fed024ad6df6ed4fb73107d5d97b084
+      internalID: -429927416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 827
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1eef927e1054f4ca90ae6dca5fc7df
+      internalID: -710127623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_27
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 853
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91b125c2eb476d47a98a337570651c5
+      internalID: 939151085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_28
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 853
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279fd01920277464b9a7da5734baed55
+      internalID: -278868012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 240
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4f2e1ca317dcc4b8097afcf20fa0e5
+      internalID: -367070230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_30
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 744
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaee97c2e25ae9642945fdba05f81c55
+      internalID: 1756951142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 738
+        width: 210
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f367b2d6ee78c44ea00879a4d031279
+      internalID: 2030824560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_32
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 841
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c748991e559f65409d164840d53df86
+      internalID: 2107439927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_33
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 835
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a0f2a0662791c48b675e8f8d82f9e3
+      internalID: 1013687428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_34
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 829
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a884b6463c9f09246b8683fa81350d7d
+      internalID: -1188313049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 818
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39be334c117f9a04b98bc08671bb0567
+      internalID: 1757810726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 732
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c09ffd80dcdaa4aa0a969bbea876a1
+      internalID: 1402575945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_37
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 708
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984648c0b307e524aa19596e3055df0f
+      internalID: 1658547887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 714
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b30742fbbd42e04ba2e61c8d76153bf
+      internalID: -807680865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2acd2e44b093094ca917f921476b5a2
+      internalID: -1020579562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_40
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 406
+        width: 251
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c173c2454651647b5e449aa4206147
+      internalID: -545823379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 239
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a338220063fdbef4c9e24516e21df484
+      internalID: 406752358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 394
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc9e6559f5f9004f80f3b13a501b47f
+      internalID: 1235559521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_43
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 114
+        width: 204
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e6c6957617ddb48bf597e5866ac7fe
+      internalID: 1048403234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_44
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 354
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a821ed7251d3924a812ce0ab60abf7d
+      internalID: -315162837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_45
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 330
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ed9876296ae054ebe6ac697416558e
+      internalID: -687024431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_46
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 306
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c0f68dd320c584ca1e6eb2046a7036
+      internalID: -601973184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7d58e8c0a91924dab4420c4c05f7ac
+      internalID: 1651852385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6cba6a200cbaa4dab71d2b26b6043d
+      internalID: 1193824796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20106a35ec6435c418625634ffc91ca9
+      internalID: -254937090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_50
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 24
+        width: 72
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f5c423f82a53f4789487709a29c019
+      internalID: 1213056088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_candy_fx_hd_51
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 36
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c446b71fba5eb43bbbc4527ba02c89
+      internalID: -442239805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -86,6 +1230,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      obj_candy_fx_hd_30: 1756951142
+      obj_candy_fx_hd_6: -1883045944
+      obj_candy_fx_hd_21: -348459547
+      obj_candy_fx_hd_10: -296109217
+      obj_candy_fx_hd_4: -1412364050
+      obj_candy_fx_hd_32: 2107439927
+      obj_candy_fx_hd_40: -545823379
+      obj_candy_fx_hd_44: -315162837
+      obj_candy_fx_hd_3: -633480011
+      obj_candy_fx_hd_42: 1235559521
+      obj_candy_fx_hd_43: 1048403234
+      obj_candy_fx_hd_9: -1351470705
+      obj_candy_fx_hd_51: -442239805
+      obj_candy_fx_hd_34: -1188313049
+      obj_candy_fx_hd_2: 301291855
+      obj_candy_fx_hd_28: -278868012
+      obj_candy_fx_hd_0: -176749741
+      obj_candy_fx_hd_17: 746151784
+      obj_candy_fx_hd_5: -1110389916
+      obj_candy_fx_hd_50: 1213056088
+      obj_candy_fx_hd_22: -174266697
+      obj_candy_fx_hd_33: 1013687428
+      obj_candy_fx_hd_37: 1658547887
+      obj_candy_fx_hd_39: -1020579562
+      obj_candy_fx_hd_41: 406752358
+      obj_candy_fx_hd_12: -1128929517
+      obj_candy_fx_hd_38: -807680865
+      obj_candy_fx_hd_16: 190473387
+      obj_candy_fx_hd_35: 1757810726
+      obj_candy_fx_hd_1: -1943760378
+      obj_candy_fx_hd_13: -556871876
+      obj_candy_fx_hd_45: -687024431
+      obj_candy_fx_hd_46: -601973184
+      obj_candy_fx_hd_48: 1193824796
+      obj_candy_fx_hd_25: -429927416
+      obj_candy_fx_hd_36: 1402575945
+      obj_candy_fx_hd_47: 1651852385
+      obj_candy_fx_hd_27: 939151085
+      obj_candy_fx_hd_31: 2030824560
+      obj_candy_fx_hd_11: -1374831520
+      obj_candy_fx_hd_19: 1710053404
+      obj_candy_fx_hd_14: -1379024875
+      obj_candy_fx_hd_24: -1146799219
+      obj_candy_fx_hd_15: 593956821
+      obj_candy_fx_hd_29: -367070230
+      obj_candy_fx_hd_23: -1026235091
+      obj_candy_fx_hd_18: -1705543502
+      obj_candy_fx_hd_7: -671686605
+      obj_candy_fx_hd_49: -254937090
+      obj_candy_fx_hd_8: 1321570626
+      obj_candy_fx_hd_26: -710127623
+      obj_candy_fx_hd_20: 1742370677
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
